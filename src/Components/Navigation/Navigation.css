@@ -1,0 +1,19 @@
+h1{
+    font-size: 32px;
+    font-weight: 500;
+    span{
+        color: #df285f;
+    }
+}
+.navigation{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 1px 6px 1px gray;
+    display: flex;
+    align-items: center;
+    padding: 26px 100px;
+    justify-content: space-between;
+    column-gap: 50px;
+}
