@@ -10,6 +10,8 @@
     background-color: #df285f;
     .close_basket{
         padding: 10px;
+        position: sticky;
+        top: 0;
         font-size: 19px;
         border: none;
         color: #fff;
@@ -52,4 +54,9 @@
             transform: scale(1.1);
         }
     }
+}
+.total__price{
+    position: fixed;
+    top: 127px;
+    color: #fff;
 }

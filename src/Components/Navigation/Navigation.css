@@ -5,6 +5,9 @@ h1{
         color: #df285f;
     }
 }
+a{
+    text-decoration: none;
+}
 .navigation{
     position: sticky;
     z-index: 1;

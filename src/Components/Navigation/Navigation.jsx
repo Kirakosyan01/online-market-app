@@ -11,7 +11,7 @@ export function Navigation({ basketProducts, setBasketProducts }) {
 
     return (
         <nav className='navigation'>
-            <h1><span>Online</span> Shopping</h1>
+            <a href="#"><h1><span>Online</span> Shopping</h1></a>
             {showBasket || <button className='basket_open' onClick={handleShowBasket}>Basket</button>}
             {showBasket && <Basket basketProducts={basketProducts} setBasketProducts={setBasketProducts} setShowBasket={setShowBasket}/>}
         </nav>
