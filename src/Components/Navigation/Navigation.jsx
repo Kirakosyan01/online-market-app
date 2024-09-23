@@ -12,7 +12,7 @@ export function Navigation({ basketProducts, setBasketProducts }) {
     return (
         <nav className='navigation'>
             <h1><span>Online</span> Shopping</h1>
-            {showBasket || <button onClick={handleShowBasket}>Basket</button>}
+            {showBasket || <button className='basket_open' onClick={handleShowBasket}>Basket</button>}
             {showBasket && <Basket basketProducts={basketProducts} setBasketProducts={setBasketProducts} setShowBasket={setShowBasket}/>}
         </nav>
     )

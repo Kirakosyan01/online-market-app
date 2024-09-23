@@ -17,3 +17,15 @@ h1{
     justify-content: space-between;
     column-gap: 50px;
 }
+.basket_open{
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.2s;
+    background-color: #df285f;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
